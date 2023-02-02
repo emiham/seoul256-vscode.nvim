@@ -61,7 +61,7 @@ M.editor = {
     EndOfBuffer = { fg = colors.disabled },
     ErrorMsg = { fg = colors.none },
     FoldColumn = { fg = colors.blue },
-    Folded = { fg = colors.green, bg = colors.bg_alt, style = "italic" },
+    Folded = { fg = colors.green, bg = colors.bg, style = "italic" },
     IncSearch = { fg = colors.highlight, bg = colors.white, style = "reverse" },
     LineNr = { fg = colors.line_numbers },
     MatchParen = { fg = colors.yellow, bg = colors.none, style = "bold" },
