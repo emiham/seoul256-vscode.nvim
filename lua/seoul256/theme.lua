@@ -385,7 +385,7 @@ M.plugins = {
     DapUIStop = { guifg = #colors.red },
     DapUIPlayPause = { guifg = colors.green },
     DapUIRestart = { guifg = colors.green },
-    DapUIUnavailable = { guifg = #424242 },
+    DapUIUnavailable = { guifg = colors.gray },
     DapUIWinSelect = { ctermfg = colors.cyan, guifg = colors.cyan, style = "bold" },
     DapUIEndofBuffer = { M.editor.EndofBuffer },
   },
