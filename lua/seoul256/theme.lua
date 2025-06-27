@@ -412,8 +412,50 @@ M.plugins = {
     DapUIPlayPause = { guifg = colors.green },
     DapUIRestart = { guifg = colors.green },
     DapUIUnavailable = { guifg = colors.gray },
-    DapUIWinSelect = { ctermfg = colors.cyan, guifg = colors.cyan, style = "bold" },
+    DapUIWinSelect = {
+      ctermfg = colors.cyan,
+      guifg = colors.cyan,
+      style = "bold",
+    },
     DapUIEndofBuffer = { M.editor.EndofBuffer },
+  },
+
+  NvimCmp = {
+    CmpDocumentation = { fg = colors.fg, bg = colors.bg_float },
+    CmpDocumentationBorder = {
+      fg = colors.border_highlight,
+      bg = colors.bg_float,
+    },
+    CmpGhostText = { fg = colors.terminal_bg },
+
+    CmpItemAbbr = { fg = colors.fg, bg = colors.none },
+    CmpItemAbbrDeprecated = {
+      fg = colors.fg_gutter,
+      bg = colors.none,
+      strikethrough = true,
+    },
+    CmpItemAbbrMatch = { fg = colors.blue1, bg = colors.none },
+    CmpItemAbbrMatchFuzzy = { fg = colors.blue1, bg = colors.none },
+
+    CmpItemMenu = { fg = colors.comment, bg = colors.none },
+
+    CmpItemKindDefault = { fg = colors.fg_dark, bg = colors.none },
+
+    CmpItemKindCodeium = { fg = colors.cyan, bg = colors.none },
+    CmpItemKindCopilot = { fg = colors.cyan, bg = colors.none },
+    CmpItemKindTabNine = { fg = colors.cyan, bg = colors.none },
+
+    CmpItemKindVariable = { fg = colors.cyan, bg = colors.none },
+    CmpItemKindInterface = { fg = colors.cyan, bg = colors.none },
+    CmpItemKindText = { fg = colors.cyan, bg = colors.none },
+    CmpItemKindFunction = { fg = colors.cyan, bg = colors.none },
+    CmpItemKindMethod = { fg = colors.cyan, bg = colors.none },
+    CmpItemKindKeyword = { fg = colors.cyan, bg = colors.none },
+    CmpItemKindProperty = { fg = colors.cyan, bg = colors.none },
+    CmpItemKindUnit = { fg = colors.cyan, bg = colors.none },
+  },
+  Blink = {
+    BlinkCmpMenuSelection = { fg = colors.fg, bg = colors.bg_alt },
   },
 }
 
