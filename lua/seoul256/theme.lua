@@ -225,6 +225,7 @@ M.plugins = {
     LspTroubleCount = { fg = colors.purple, bg = colors.active },
     LspTroubleNormal = { fg = colors.fg, bg = colors.sidebar },
   },
+
   Diff = {
     diffAdded = { fg = colors.green },
     diffRemoved = { fg = colors.red },
