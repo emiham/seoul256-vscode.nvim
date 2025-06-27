@@ -341,6 +341,8 @@ M.plugins = {
   IndentBlankline = {
     IndentBlanklineChar = { fg = colors.indentline },
     IndentBlanklineContextChar = { fg = colors.indentline },
+    IblIndent = { fg = colors.indentline },
+    IblScope = { fg = colors.highlight },
   },
 
   NvimDap = {
