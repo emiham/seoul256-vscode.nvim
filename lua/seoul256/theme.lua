@@ -111,7 +111,7 @@ M.editor = {
   Visual = { fg = colors.none, bg = colors.selection },
   VisualNOS = { fg = colors.none, bg = colors.selection },
   WarningMsg = { fg = colors.yellow },
-  Whitespace = {}, -- TODO
+  Whitespace = { fg = colors.text },
   WildMenu = { fg = colors.orange, bg = colors.none, style = "bold" },
 
   -- GUI only
